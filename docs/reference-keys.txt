@@ -1,3 +1,4 @@
+fig:unnamed-chunk-5
 fig:nice-fig
 tab:nice-tab
 eq:binom
@@ -7,6 +8,9 @@ render-book
 preview-book
 hello-bookdown
 a-section
+movie
+movie-theater
+movie-genre
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables

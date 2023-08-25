@@ -110,14 +110,14 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={A Minimal Book Example},
-  pdfauthor={John Doe},
+  pdftitle={Cofit X file},
+  pdfauthor={John Walker},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{A Minimal Book Example}
-\author{John Doe}
-\date{2023-08-24}
+\title{Cofit X file}
+\author{John Walker}
+\date{2023-08-25}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -145,6 +145,8 @@
 }
 \hypertarget{about}{%
 \chapter{About}\label{about}}
+
+\includegraphics{../../02image/albert.png} \includegraphics{/Users/ando/Desktop/work/cofit/rd/02image/albert.png}
 
 This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
 
@@ -206,6 +208,70 @@ All chapter sections start with a second-level (\texttt{\#\#}) or higher heading
 \addcontentsline{toc}{subsection}{An unnumbered section}
 
 Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
+
+\hypertarget{movie}{%
+\chapter{Movie}\label{movie}}
+
+\hypertarget{movie-theater}{%
+\section{movie theater}\label{movie-theater}}
+
+\hypertarget{movie-genre}{%
+\subsection{movie genre}\label{movie-genre}}
+
+\textbf{scattered plot} \texttt{plot(x=genre,\ y=views)}
+
+\begin{verbatim}
+this is r code: ggplot()
+\end{verbatim}
+
+\textbf{\emph{ordered}}
+
+\textbf{unordered} - unorderd - unorderd
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  ordered 1
+\item
+  ordered 2
+\end{enumerate}
+
+\textbf{Adding links} \href{https://news.yahoo.com/}{yahoo}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Header 1 & Header 2 \\
+\midrule()
+\endhead
+Data 1 & Data 2 \\
+\bottomrule()
+\end{longtable}
+
+This is the summary of \textbf{Iris} data
+
+\begin{verbatim}
+##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
+##        Species  
+##  setosa    :50  
+##  versicolor:50  
+##  virginica :50  
+##                 
+##                 
+## 
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{_main_files/figure-latex/unnamed-chunk-5-1.pdf}
+\caption{\label{fig:unnamed-chunk-5}plot of species vs.~sepal length}
+\end{figure}
 
 \hypertarget{cross}{%
 \chapter{Cross-references}\label{cross}}
