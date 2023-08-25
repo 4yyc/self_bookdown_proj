@@ -44,6 +44,3 @@ summary(iris)
 ```{r echo=FALSE, fig.cap="plot of species vs. sepal length"}
 plot(x=iris$Species, y=iris$Sepal.Length, )
 ```
-
-
-
