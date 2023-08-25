@@ -32,3 +32,18 @@ Chapters and sections are numbered by default. To un-number a heading, add a `{.
 | Header 1 | Header 2 |
 |----------|----------|
 | Data 1   | Data 2   |
+
+This is the summary of **Iris** data
+
+```{r echo=FALSE}
+library(datasets) 
+data(iris) 
+summary(iris)
+```
+
+```{r echo=FALSE, fig.cap="plot of species vs. sepal length"}
+plot(x=iris$Species, y=iris$Sepal.Length, )
+```
+
+
+
