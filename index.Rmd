@@ -17,11 +17,11 @@ github-repo: rstudio/bookdown-demo
 
 # About
 
-![albert](../../02image/albert.png) ![albert](/Users/ando/Desktop/work/cofit/rd/02image/albert.png)
+```{r}
+getwd()
+```
 
-This is a *sample* book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
-
-## Usage
+This is a *sample* book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$. ![albert](../../02image/albert.png) ![albert](/Users/ando/Desktop/work/cofit/rd/02image/albert.png) ![albert](image/albert.png) \## Usage
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
